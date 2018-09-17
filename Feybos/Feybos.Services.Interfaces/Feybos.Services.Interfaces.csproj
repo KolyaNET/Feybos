@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp2.1</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<RuntimeFrameworkVersion>2.1.4</RuntimeFrameworkVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Feybos.Domain.Core\Feybos.Domain.Core.csproj" />
+	</ItemGroup>
+
+</Project>
