@@ -10,4 +10,8 @@
 	  <ProjectReference Include="..\Feybos.Domain.Core\Feybos.Domain.Core.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Providers\" />
+	</ItemGroup>
+
 </Project>

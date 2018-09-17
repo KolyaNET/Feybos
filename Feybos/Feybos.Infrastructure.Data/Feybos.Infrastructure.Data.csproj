@@ -12,7 +12,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Folder Include="DapperDataAccess\Providers\" />
 	  <Folder Include="EntityFrameworkDataAccess\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Dapper" Version="1.50.5" />
 	</ItemGroup>
 
 </Project>

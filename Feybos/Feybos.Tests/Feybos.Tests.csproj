@@ -10,6 +10,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
+		<PackageReference Include="Moq" Version="4.10.0" />
 		<PackageReference Include="xunit" Version="2.4.0" />
 		<PackageReference Include="xunit.runner.visualstudio" Version="2.4.0">
 			<PrivateAssets>all</PrivateAssets>
@@ -20,6 +21,11 @@
 	<ItemGroup>
 	  <Folder Include="Integration\Data\" />
 	  <Folder Include="Integration\Web\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Feybos.Domain.Interfaces\Feybos.Domain.Interfaces.csproj" />
+	  <ProjectReference Include="..\Feybos.Infrastructure.Data\Feybos.Infrastructure.Data.csproj" />
 	</ItemGroup>
 
 </Project>
