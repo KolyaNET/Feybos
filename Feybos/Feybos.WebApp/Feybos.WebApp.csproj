@@ -1,12 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <UserSecretsId>aspnet-Feybos.WebApp-9CFDEFF5-BF0D-40FC-91E8-0763722F4272</UserSecretsId>
+    <LangVersion>latest</LangVersion>
+	<RuntimeFrameworkVersion>2.1.4</RuntimeFrameworkVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>false</Optimize>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <Compile Remove="Data\Migrations\20180917055812_Rename tables.cs" />
+    <Compile Remove="Data\Migrations\20180917055812_Rename tables.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.4" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.4" PrivateAssets="All" />
   </ItemGroup>
 
