@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feybos.Infrastructure.Data"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feybos.Infrastructure.Business", "Feybos.Infrastructure.Business\Feybos.Infrastructure.Business.csproj", "{8D4B1DF9-89F3-429D-8A49-831A8D991FAD}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Feybos.Infrastructure.Database", "Feybos.Infrastructure.Database\Feybos.Infrastructure.Database.sqlproj", "{71912113-845B-4EEB-B834-38C73ABF345B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,12 @@ Global
 		{8D4B1DF9-89F3-429D-8A49-831A8D991FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D4B1DF9-89F3-429D-8A49-831A8D991FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D4B1DF9-89F3-429D-8A49-831A8D991FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71912113-845B-4EEB-B834-38C73ABF345B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71912113-845B-4EEB-B834-38C73ABF345B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71912113-845B-4EEB-B834-38C73ABF345B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{71912113-845B-4EEB-B834-38C73ABF345B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71912113-845B-4EEB-B834-38C73ABF345B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71912113-845B-4EEB-B834-38C73ABF345B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,6 +88,7 @@ Global
 		{33C1D60F-6B07-4B9E-8411-5E2BE91157E8} = {FAABA263-3FDD-432F-B796-E7B913C0136E}
 		{42410F28-6633-4E20-8B6B-C11DC7AFB5B7} = {F768F783-ACC0-46D5-9489-7AB14544170E}
 		{8D4B1DF9-89F3-429D-8A49-831A8D991FAD} = {F768F783-ACC0-46D5-9489-7AB14544170E}
+		{71912113-845B-4EEB-B834-38C73ABF345B} = {F768F783-ACC0-46D5-9489-7AB14544170E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC273695-90CC-4C9C-9E94-157AA62CC08B}
