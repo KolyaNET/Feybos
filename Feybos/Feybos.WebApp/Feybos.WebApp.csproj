@@ -5,6 +5,7 @@
 		<UserSecretsId>aspnet-Feybos.WebApp-9CFDEFF5-BF0D-40FC-91E8-0763722F4272</UserSecretsId>
 		<LangVersion>latest</LangVersion>
 		<RuntimeFrameworkVersion>2.1.4</RuntimeFrameworkVersion>
+		<TypeScriptToolsVersion>3.0</TypeScriptToolsVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -19,6 +20,10 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.4" />
 		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.4" PrivateAssets="All" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="ClientApp\" />
 	</ItemGroup>
 
 </Project>
