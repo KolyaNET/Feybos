@@ -13,6 +13,13 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Compile Remove="ClientApp\dist\**" />
+	  <Content Remove="ClientApp\dist\**" />
+	  <EmbeddedResource Remove="ClientApp\dist\**" />
+	  <None Remove="ClientApp\dist\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<Compile Remove="Data\Migrations\20180917055812_Rename tables.cs" />
 		<Compile Remove="Data\Migrations\20180917055812_Rename tables.Designer.cs" />
 	</ItemGroup>
@@ -23,7 +30,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="ClientApp\" />
+	  <TypeScriptCompile Include="ClientApp\src\components\HelloWorld.vue.ts" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="wwwroot\css\" />
+	  <Folder Include="wwwroot\images\" />
+	  <Folder Include="wwwroot\js\" />
+	  <Folder Include="wwwroot\lib\" />
 	</ItemGroup>
 
 </Project>
